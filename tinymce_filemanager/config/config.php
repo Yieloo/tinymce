@@ -12,7 +12,7 @@ date_default_timezone_set('Europe/Paris');
  * **************************************************************
  ****************************************************************/
 
-require_once dirname(__FILE__) . '/../../../config.inc.php';
+require_once dirname(__FILE__) . '/../../../../config.inc.php';
 
 $current_id = get_current_id();
 $pf_name = get_plateforme_name();
